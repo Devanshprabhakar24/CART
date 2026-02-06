@@ -61,8 +61,15 @@ router.put('/:id', (req, res, next) => {
         const cartItemId = parseInt(req.params.id);
         const { quantity } = req.body;
 
-        if (!quantity || quantity < 1) {
-            const error = new Error('Quantity must be at least 1');
+        // Validate quantity
+        if (!quantity || typeof quantity !== 'number') {
+            const error = new Error('Quantity is required and must be a number');
+            error.statusCode = 400;
+            throw error;
+        }
+
+        if (quantity < 1 || quantity > 99) {
+            const error = new Error('Quantity must be between 1 and 99');
             error.statusCode = 400;
             throw error;
         }

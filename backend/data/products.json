@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Diamond Necklace",
     "price": 45000,
-    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop",
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop",
     "description": "Elegant diamond necklace with 18k gold",
     "category": "Necklaces"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Gold Earrings",
     "price": 15000,
-    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop",
+    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop",
     "description": "Classic gold earrings with intricate design",
     "category": "Earrings"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Ruby Ring",
     "price": 32000,
-    "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=400&fit=crop",
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop",
     "description": "Beautiful ruby ring with platinum setting",
     "category": "Rings"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "name": "Emerald Pendant",
     "price": 28000,
-    "image": "https://images.unsplash.com/photo-1590159621304-4b16a9d1ec4f?w=400&h=400&fit=crop",
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop",
     "description": "Stunning emerald pendant with gold chain",
     "category": "Pendants"
   },
@@ -43,8 +43,168 @@
     "id": 6,
     "name": "Sapphire Brooch",
     "price": 22000,
-    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop",
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop",
     "description": "Vintage sapphire brooch with diamonds",
     "category": "Brooches"
+  },
+  {
+    "id": 7,
+    "name": "Silver Anklet",
+    "price": 8500,
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop",
+    "description": "Delicate silver anklet with charms",
+    "category": "Anklets"
+  },
+  {
+    "id": 8,
+    "name": "Diamond Stud",
+    "price": 18000,
+    "image": "https://images.unsplash.com/photo-1515377905703-c511b60b5cb0?w=400&h=400&fit=crop",
+    "description": "Classic diamond stud earrings",
+    "category": "Earrings"
+  },
+  {
+    "id": 9,
+    "name": "Golden Chain",
+    "price": 35000,
+    "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop",
+    "description": "Luxurious 24k gold chain necklace",
+    "category": "Necklaces"
+  },
+  {
+    "id": 10,
+    "name": "Crystal Ring",
+    "price": 16000,
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop",
+    "description": "Sparkling crystal cocktail ring",
+    "category": "Rings"
+  },
+  {
+    "id": 11,
+    "name": "Platinum Band",
+    "price": 42000,
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop",
+    "description": "Elegant platinum wedding band",
+    "category": "Rings"
+  },
+  {
+    "id": 12,
+    "name": "Jade Bangle",
+    "price": 14000,
+    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop",
+    "description": "Traditional jade bangle bracelet",
+    "category": "Bracelets"
+  },
+  {
+    "id": 13,
+    "name": "Topaz Locket",
+    "price": 21000,
+    "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop",
+    "description": "Beautiful topaz locket pendant",
+    "category": "Pendants"
+  },
+  {
+    "id": 14,
+    "name": "Turquoise Ring",
+    "price": 13000,
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop",
+    "description": "Bohemian turquoise statement ring",
+    "category": "Rings"
+  },
+  {
+    "id": 15,
+    "name": "Opal Earrings",
+    "price": 19000,
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop",
+    "description": "Iridescent opal drop earrings",
+    "category": "Earrings"
+  },
+  {
+    "id": 16,
+    "name": "Amethyst Pendant",
+    "price": 17000,
+    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop",
+    "description": "Purple amethyst crystal pendant",
+    "category": "Pendants"
+  },
+  {
+    "id": 17,
+    "name": "Rose Gold Ring",
+    "price": 26000,
+    "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop",
+    "description": "Modern rose gold engagement ring",
+    "category": "Rings"
+  },
+  {
+    "id": 18,
+    "name": "Moonstone Bracelet",
+    "price": 11000,
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop",
+    "description": "Shimmering moonstone beaded bracelet",
+    "category": "Bracelets"
+  },
+  {
+    "id": 19,
+    "name": "Garnet Necklace",
+    "price": 24000,
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop",
+    "description": "Deep red garnet cluster necklace",
+    "category": "Necklaces"
+  },
+  {
+    "id": 20,
+    "name": "Citrine Brooch",
+    "price": 19500,
+    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop",
+    "description": "Golden citrine vintage brooch",
+    "category": "Brooches"
+  },
+  {
+    "id": 21,
+    "name": "Aquamarine Ring",
+    "price": 29000,
+    "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop",
+    "description": "Stunning aquamarine gemstone ring",
+    "category": "Rings"
+  },
+  {
+    "id": 22,
+    "name": "Peridot Earrings",
+    "price": 14500,
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop",
+    "description": "Lime green peridot dangle earrings",
+    "category": "Earrings"
+  },
+  {
+    "id": 23,
+    "name": "Tanzanite Pendant",
+    "price": 38000,
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop",
+    "description": "Rare tanzanite gemstone pendant",
+    "category": "Pendants"
+  },
+  {
+    "id": 24,
+    "name": "Iolite Bracelet",
+    "price": 12500,
+    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop",
+    "description": "Purple iolite stone bracelet",
+    "category": "Bracelets"
+  },
+  {
+    "id": 25,
+    "name": "Morganite Ring",
+    "price": 33000,
+    "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop",
+    "description": "Pink morganite halo ring",
+    "category": "Rings"
+  },
+  {
+    "id": 26,
+    "name": "Tourmaline Necklace",
+    "price": 31000,
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop",
+    "description": "Multicolor tourmaline strand necklace",
+    "category": "Necklaces"
   }
 ]

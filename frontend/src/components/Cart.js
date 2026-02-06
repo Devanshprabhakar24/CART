@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { CartContext } from '../context/CartContext';
 import '../styles/Cart.css';
 
@@ -11,6 +11,17 @@ const Cart = () => {
         clearCart,
         getCartTotal
     } = useContext(CartContext);
+
+    const [checkoutMessage, setCheckoutMessage] = useState('');
+
+    const handleCheckout = () => {
+        if (cartItems.length === 0) {
+            setCheckoutMessage('Cart is empty!');
+            return;
+        }
+        setCheckoutMessage('✓ Proceeding to checkout...');
+        setTimeout(() => setCheckoutMessage(''), 3000);
+    };
 
     const formatPrice = (price) => {
         return new Intl.NumberFormat('en-IN', {
@@ -118,9 +129,15 @@ const Cart = () => {
                     <span>{formatPrice(getCartTotal())}</span>
                 </div>
 
-                <button className="checkout-button">
+                <button className="checkout-button" onClick={handleCheckout}>
                     Proceed to Checkout
                 </button>
+
+                {checkoutMessage && (
+                    <div className={`message ${checkoutMessage.includes('✓') ? 'success' : 'error'}`}>
+                        {checkoutMessage}
+                    </div>
+                )}
             </div>
         </div>
     );
